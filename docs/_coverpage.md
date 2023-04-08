@@ -13,5 +13,5 @@
 
 <br>
 
-[开始阅读](/README.md)
+[GitHub](
 

@@ -6,7 +6,7 @@ docsDir := docs
 ## install: Install docsify and gitbook-summary
 .PHONY: install
 install:
-	go install github.com/dengjiawen8955/gitbook-summary@latest
+	go install github.com/jarvanstack/gitbook-summary@latest
 
 ## gen: Gen _sidebar.md file
 .PHONY: gen
