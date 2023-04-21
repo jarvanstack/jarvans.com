@@ -29,11 +29,10 @@
     console.log('repo:');
     console.log(repo);
 
-    // 以 / 分割，取最后一段
-    let title = repo.split('/').pop();
+    // Use title as keywords and description
     document.title = title;
-    document.querySelector('meta[name="keywords"]').setAttribute('content', keywords);
-    document.querySelector('meta[name="description"]').setAttribute('content', description);
+    document.querySelector('meta[name="keywords"]').setAttribute('content', title);
+    document.querySelector('meta[name="description"]').setAttribute('content', title);
 
   </script>
 
@@ -41,7 +40,6 @@
 
     window.$docsify = {
       // 核心配置
-      onlyCover: false, // 只显示封面
       auto2top: true,
       coverpage: true,
       executeScript: true,
@@ -65,7 +63,7 @@
         countable: true,
         fontsize: '0.9em',
         color: 'rgb(90,90,90)',
-        language: 'chinese',        
+        language: 'chinese',
       },
       // 搜索
       search: {
@@ -96,6 +94,7 @@
             if (WebsitePV != 0) {
               pvHTML = '📖总阅读量 ' + WebsitePV
             }
+            let ICP = '<p align="center"><a href="http://beian.miit.gov.cn/" target="_blank">蜀ICP备2021004630号-1</a></p>' 
             return html
               + '\n----\n'
               + editHtml
@@ -103,6 +102,9 @@
               + '⏰更新时间 {docsify-updated}'
               + '\n\n'
               + pvHTML
+              + '\n\n'
+              + '\n----\n'
+              + ICP
           })
         },
       ],
