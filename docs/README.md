@@ -12,7 +12,7 @@
 
 ## 书籍篇
 
-?> [go-tutorial教程](https://www.jarvans.com/go-tutorial/#/)
+?> [go-tutorial](https://www.jarvans.com/go-tutorial/#/)：《零基础go语言入门到实战》
 
 
 

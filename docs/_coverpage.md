@@ -1,6 +1,6 @@
 # Jarvan知识分享 <small>0.0</small>
 
->用于生活, 学习, 职场上的个人心得记录, 形成有益的分享, 促进共同成长.。
+> Stay hungry, stay foolish.
 
 <br>
 
