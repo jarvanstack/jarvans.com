@@ -2,4 +2,5 @@
 
 Github Pages: https://jarvanstack.github.io/bmft-blog/
 
-个人网站: https://bmft.tech/
+个人网站: https://jarvans.com
+

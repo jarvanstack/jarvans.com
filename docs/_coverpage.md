@@ -13,5 +13,5 @@
 
 <br>
 
-[GitHub](https://github.com/jarvanstack)
-[知乎](https://zhihu.com/people/bmft.tech)
+[我的GitHub](https://github.com/jarvanstack)
+[开始阅读](https://zhihu.com/people/bmft.tech)
