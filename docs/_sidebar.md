@@ -1,4 +1,4 @@
-* [README](//README.md)
+* [主页](/README.md)
 
 * 思维篇
   * [弯道超车的机会](/throught/chance.md)
