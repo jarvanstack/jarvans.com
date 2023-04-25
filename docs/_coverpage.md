@@ -1,6 +1,6 @@
-# Jarvan知识分享 <small>0.0</small>
+# jarvans.com <small>0.0</small>
 
-> Stay hungry, stay foolish.
+> 个人技术，学习，生活的思考
 
 <br>
 
