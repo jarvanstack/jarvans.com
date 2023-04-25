@@ -14,4 +14,4 @@
 <br>
 
 [我的GitHub](https://github.com/jarvanstack)
-[开始阅读](https://zhihu.com/people/bmft.tech)
+[开始阅读](README.md)
