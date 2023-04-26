@@ -36,7 +36,8 @@ update: push
 .PHONY: serve
 serve: gen
 	# 使用 nginx 代理 docs 目录
-	docker run --rm -it -p 3000:80 -v $(make_dir)/docs:/usr/share/nginx/html:ro nginx
+	# docker run --rm -it -p 3000:80 -v $(make_dir)/docs:/usr/share/nginx/html:ro nginx
+	docsify serve docs
 
 ## sync: Sync local repo to cos bucket
 .PHONY: sync
