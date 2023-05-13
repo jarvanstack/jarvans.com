@@ -20,8 +20,12 @@
 
 * Github
 
+```text
 https://github.com/jarvanstack
+```
 
-* 公众号
+* 作者微信号：
 
-![公众号](https://cdn.jarvans.com/blog/2023/202304111908163.jpg)
+```text
+jarvanstk
+```
