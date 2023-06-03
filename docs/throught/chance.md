@@ -251,7 +251,7 @@ https://github.com/jarvanstack
 
 * 公众号
 
-![公众号](https://cdn.jarvans.com/blog/2023/202303291643509.png)
+Jarvan同学
 
 ## 特别推荐
 
