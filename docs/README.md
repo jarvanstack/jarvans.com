@@ -1,6 +1,6 @@
 ## 博客
 
-?> [我的编程之路-弯道超车的机会](throught/chance.md)
+?> [我的大学四年-弯道超车的机会](throught/chance.md)
 
 ?> [程序篇001-百万级并发秒杀系统设计](https://mp.weixin.qq.com/s/w5akaUb0ZYhPWCDYxixjlA)
 
