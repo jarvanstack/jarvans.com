@@ -25,10 +25,6 @@
 
 
 
-?> [思维篇002-如何在二流的大学接受一流的教育？](https://mp.weixin.qq.com/s/rxWOgcbNeGk4ZwbvLqiiew)
-
-
-
 ?> [思维篇001-能力再强也要借力](https://mp.weixin.qq.com/s/m1wzGjoCdZe8IgUYtUBcxg)
 
 
