@@ -2,6 +2,9 @@ make_dir:=$(shell pwd)
 app_name:=$(shell basename $(make_dir))
 
 docsDir := docs
+MESSAGE_TARGETS := $(wordlist 2,$(words $(MAKECMDGOALS)),$(MAKECMDGOALS))
+COMMIT_MESSAGE := $(strip $(or $(MSG),$(MESSAGE),$(MESSAGE_TARGETS)))
+sh_quote = '$(subst ','\'',$(1))'
 
 ## install: Install docsify and gitbook-summary
 .PHONY: install
@@ -19,15 +22,16 @@ gen:
 up:
 	docker-compose  -f docker-compose-nginx.yaml up  -d 
 
-## push: Commit and push to remote repo
+## push: Commit and push to remote repo; optional make push "message"
 .PHONY: push
-.IGNORE: push
 push: gen
-	git add .
-	git commit -m "update: Auto commit And push"
-	git push origin master
+ifneq ($(COMMIT_MESSAGE),)
+	./scripts/git_update.sh $(call sh_quote,$(COMMIT_MESSAGE))
+else
+	./scripts/git_update.sh
+endif
 
-## update: Use update_remote.sh to update remote repo
+## update: Use update_remote.sh to update remote repo; optional make update "message"
 .PHONY: update
 update: push
 	./update_remote.sh
@@ -44,9 +48,17 @@ serve: gen
 sync: push
 	coscli sync  docs/ cos://bmft-blog/ -r
 
+ifneq ($(filter update push sync,$(firstword $(MAKECMDGOALS))),)
+.DEFAULT:
+	@:
+endif
+
 ## help: Show this help info.
 .PHONY: help
 help: Makefile
 	@printf "\nUsage: make <TARGETS> <OPTIONS> ...\n\nTargets:\n"
 	@sed -n 's/^##//p' $< | column -t -s ':' | sed -e 's/^/ /'
+	@printf "\nExamples:\n"
+	@printf " make update \"docs: update mysql notes\"\n"
+	@printf " make update MESSAGE=\"docs: update mysql notes\"\n"
 	@echo "$$USAGE_OPTIONS"
