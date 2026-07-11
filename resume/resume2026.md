@@ -2,7 +2,7 @@
 
 dengjiawen8955@gmail.com | [jarvans.com](https://jarvans.com) | 13360647237 | 25岁 | 北京 | 5年经验 | Golang | 架构 | 全栈
 
-## 1.简介
+## 1. 1.简介
 
 [创游世界App](https://apps.apple.com/cn/app/%E5%88%9B%E6%B8%B8%E4%B8%96%E7%95%8C/id1596868497) 后端主程, 百万日活. 
 
@@ -44,56 +44,27 @@ dengjiawen8955@gmail.com | [jarvans.com](https://jarvans.com) | 13360647237 | 25
 
 - 网关在线人数监控, 策划表通用检查, 战报服务查询, RPG战斗优化设计, 开发和维护
 
+### 2.5. 后端开发实习
 
-### 2.5. 后端开发实习生
-
-> 哔哩哔哩  `2022.5 - 2023.7` (14 个月)
-
+> 哔哩哔哩  `2022.5 - 2023.7` (10 个月)
 - 独立完成抽卡, 贵重品, 通⽤天赋, 通⽤特权, 新⼿引导和 GM需求的设计, 开发和维护
-- **主动**把 golangci-ci 引入 CI 流程, 限制 Go 代码的圈复杂度, 并规范代码的质量和风格
-- **主动**定时看监控, 修复因网关和逻辑服心跳导致的协程泄露
 
-
-
-### 2.6. Go开发实习生
-
-> 元象 `2021.5 - 2021.9` (5 个月)
-
-元象案例包括抖音太空漫游, 腾讯TME跨年会, 一汽大众发布会, CCTV十五晚会, 可口可乐宠粉节等
-
-- 将原有的单体 Redis 服务拆分为内存, Redis LRU, TcaplusDB 多级缓存, **降低 80% 成本**的同时保证 P99 延时低于 10ms; 该方案目前已在广州, 北京, 上海, 香港等区域应用
+> 元象科技 `2021.5 - 2021.9` (5 个月)
+- 将原有的单体 Redis 服务拆分为内存, Redis LRU, TcaplusDB 多级缓存, **降低 80% 成本**
 - 主导 Prometheus 替换 cls 做监控,  **成本降低 90%**
 
-
-
-### 2.7. 全栈开发实习生
-
 > 食铁兽科技 `2021.2 - 2021.5` (3 个月)
-
-食铁兽科技是孵化大疆的李泽湘教授投资和指导的孵化公司
-
 - 独立负责官网+公众号的前后端搭建 (Vue, SpringBoot, Nginx)
-
-
 
 ## 3. 开源项目
 
-喜欢捣鼓, 190+ repos
+喜欢捣鼓, 目前有 **190+ repos**
 
-### 3.1. [HelloGithub](https://github.com/jarvanstack) 2021-07 (1.7k+ Star)
+> [HelloGithub](https://github.com/jarvanstack) 2021-07 (1.7k+ Star)
+- 主要分享其他开源项目的特点, 使用, 最佳实践和避坑
 
-- 参与 HelloGitHub, 该项目主要分享其他开源项目的特点, 使用, 最佳实践和避坑
-
-### 3.2. [mysqldump](https://github.com/jarvanstack) 2023-03 (150+ Star)
-
-- 从0到1实现基于 golang 实现的零依赖, 高性能, 并发 mysqldump 库, 同类中排名第 1
-- 支持所有 MYSQL 数据类型
-- 自定义 Writer: 如本地文件, S3, OSS, COS等
+> [mysqldump](https://github.com/jarvanstack) 2023-03 (150+ Star)
+- 从0到1实现基于 golang 实现的零依赖, 高性能, 并发 mysqldump 库, 同类搜索排名第 1
 
 
-## 4. 个人链接
-
-- **个人网站**: [https://jarvans.com](https://jarvans.com)
-- **GitHub**: [https://github.com/jarvanstack](https://github.com/jarvanstack)  
-*@2026 Made by jarvans.com*
 
