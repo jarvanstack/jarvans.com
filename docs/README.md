@@ -1,53 +1,59 @@
-## 博客
+# 什么是好的程序员?
 
-?> [我的大学四年-弯道超车的机会](throught/chance.md)
+## 招聘角度: 专业能力 VS 价值观, 哪个更重要?
 
-?> [程序篇001-百万级并发秒杀系统设计](https://mp.weixin.qq.com/s/w5akaUb0ZYhPWCDYxixjlA)
-
-?> [思维篇011-时间投资法与快乐清单](https://mp.weixin.qq.com/s/Q9w49AOLfgpGv1FLg2pJnA)
+![](https://cdn.jarvans.com/blog/202320260712141434920.png)
 
 
-?> [思维篇008-如何正确的提问？](https://mp.weixin.qq.com/s/aBNqYTxsUAwTxlKJrD5mRA)
+### 能力好 
 
-?> [思维篇007-为什么问题比答案重要？](https://mp.weixin.qq.com/s/zex8AOwGV1xzxfLpRluCHA)
+不仅是写很多代码经验丰富. 
 
+而是具有职业素养 (professional), 像是一个脑外科医生一样
 
-?> [思维篇006-关于写作的建议](https://mp.weixin.qq.com/s/537d3HGsk_gsg4jF356cJQ)
+### 价值观好
 
-?> [思维篇005-我为什么要写文章？](https://mp.weixin.qq.com/s/nFqWtMLnYlytYOS3z3cMfg)
-
-?> [思维篇004-大学教育早已崩溃](https://mp.weixin.qq.com/s/NAqTTEdAE0DzJ7rspv8ATA)
-
-?> [思维篇003-大学是怎样诞生的？](https://mp.weixin.qq.com/s/yAnOkPj5m6aW_8EJJfuniw)
+因为我关心价值观 TOP 3 分别是: **坦诚, 主动, 渴望**
 
 
-?> [思维篇002-如何在二流的大学接受一流的教育？](https://mp.weixin.qq.com/s/rxWOgcbNeGk4ZwbvLqiiew)
+一个人的未来成就(有限样本): **能力占 40%, 价值观占 60%**
+
+因为你能轻易发现, 有许多能力强但是价值观不够, 最后成就一般
+
+但你很难找到一个人, 能力很强但是价值观不够, 最后成就一般的
+
+**有这种价值观的人能力很难平庸**
+
+积极主动意味着: 你由你自己主动控制, 而不是别人
+
+会主动解决问题, 主动承担更多, 往往会付出更多
+
+可能有些人会说这是在 PUA
+
+你是不是想要压榨打工人的劳动力? 
+
+老板给我那么少的钱, 我就只干我分内的活就行了, 为什么要让我做更多?
+
+其实
 
 
 
-?> [思维篇001-能力再强也要借力](https://mp.weixin.qq.com/s/m1wzGjoCdZe8IgUYtUBcxg)
+
+## 工程师的五个等级
 
 
 
+## 参考
+
+「態度好V.S专业能力好」哪個比較重要？教你從「三維視角」評估自我
+https://www.uho.com.tw/article-63583.html
 
 
+工程师的“五个等级”，你处在哪一级？ 
+https://www.sohu.com/a/693362454_121124362
 
-## 书籍
-
-?> [go-tutorial](https://www.jarvans.com/go-tutorial/#/)：《Go语言入门到实战》
+脑外科医师: <<专业主义>>
 
 
-
-## 联系方式
-
-* Github
-
-```text
-https://github.com/jarvanstack
-```
-
-* 作者微信号：
-
-```text
-jarvanstk
-```
+阿里的绩效考核: 吃人
+https://zhuanlan.zhihu.com/p/88770707

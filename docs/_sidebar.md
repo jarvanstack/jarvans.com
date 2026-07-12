@@ -1,4 +1,49 @@
-* [主页](/README.md)
+* [首页](/README.md)
+
+* 什么是好的程序员?
+  * [什么是好的程序员？](/1-what/good-programmer.md)
+  * [专业能力还是价值观？](/1-what/skill-vs-values.md)
+  * [工程师的五个等级](/1-what/five-levels.md)
+  * [质量与速度](/1-what/quality-vs-speed.md)
+  * [以终为始](/1-what/value-first.md)
+
+* 怎么成为一个好的程序员? 专业能力
+  * [五步工作法](/2-how-pro/five-steps.md)
+  * [质疑需求](/2-how-pro/question-requirements.md)
+  * [删除非核心功能](/2-how-pro/cut-scope.md)
+  * [多个方案，选择最优](/2-how-pro/compare-options.md)
+  * [封底估算](/2-how-pro/estimate.md)
+  * [可维护性](/2-how-pro/maintainability.md)
+  * [任务分解](/2-how-pro/task-breakdown.md)
+  * [别把 QA 当啄木鸟](/2-how-pro/own-quality.md)
+  * [代码信心从哪里来？](/2-how-pro/confidence.md)
+  * [什么才算完成？](/2-how-pro/done.md)
+  * [决定优先级](/2-how-pro/priority.md)
+  * [什么时候求助？](/2-how-pro/ask-when.md)
+  * [如何正确提问？](/2-how-pro/ask-how.md)
+  * [如何开会？](/2-how-pro/meetings.md)
+
+* 怎么成为一个好的程序员? 价值观
+  * [坦诚、主动、渴望](/3-how-value/core-values.md)
+  * [坦诚](/3-how-value/candor.md)
+  * [主动](/3-how-value/initiative.md)
+  * [渴望](/3-how-value/hunger.md)
+
+* 不为清单 - 专业能力
+  * [不估算，不交白卷](/4-dont-pro/no-estimate.md)
+  * [不做 Checklist，不交白卷](/4-dont-pro/checklist.md)
+  * [不做四十分的创新](/4-dont-pro/weak-innovation.md)
+
+* 不为清单 - 价值观
+  * [别撒谎，别不懂装懂](/5-dont-value/lying.md)
+  * [Ego 别太大](/5-dont-value/ego.md)
+  * [别有受害者心态](/5-dont-value/victim.md)
+  * [别装一团和气](/5-dont-value/false-harmony.md)
+
+* 阅读书籍
+  * [非暴力沟通](/6-books/nonviolent-communication.md)
+  * [高效能人士的七个习惯](/6-books/seven-habits.md)
+  * [程序员的职业素养](/6-books/clean-coder.md)
 
 * 思维篇
   * [弯道超车的机会](/throught/chance.md)
