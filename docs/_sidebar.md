@@ -1,7 +1,6 @@
 * [首页](/README.md)
 
 * 什么是好的程序员?
-  * [什么是好的程序员？](/1-what/good-programmer.md)
   * [专业能力还是价值观？](/1-what/skill-vs-values.md)
   * [工程师的五个等级](/1-what/five-levels.md)
   * [质量与速度](/1-what/quality-vs-speed.md)
