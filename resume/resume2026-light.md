@@ -54,7 +54,7 @@ dengjiawen8955@gmail.com | [jarvans.com](https://jarvans.com) | 13360647237 | 25
 
 ## 3. 开源项目
 
-喜欢捣鼓, 目前有 **190+ repos**
+目前有 **190+ repos**
 
 > [HelloGithub](https://github.com/jarvanstack) 2021-07 (1.7k+ Star)
 - 参与 HelloGitHub, 主要分享开源项目的特点、使用方法、最佳实践和常见问题
@@ -66,4 +66,3 @@ dengjiawen8955@gmail.com | [jarvans.com](https://jarvans.com) | 13360647237 | 25
 
 - **个人网站**: [https://jarvans.com](https://jarvans.com)
 - **GitHub**: [https://github.com/jarvanstack](https://github.com/jarvanstack)  
-
