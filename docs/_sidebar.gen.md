@@ -1,0 +1,46 @@
+* [README](/README.md)
+- What
+    * [Levels](/1-what/five-levels.md)
+    * [Vs-Speed](/1-what/quality-vs-speed.md)
+    * [Vs-Values](/1-what/skill-vs-values.md)
+    * [First](/1-what/value-first.md)
+- How-Pro
+    * [How](/2-how-pro/ask-how.md)
+    * [When](/2-how-pro/ask-when.md)
+    * [Options](/2-how-pro/compare-options.md)
+    * [Confidence](/2-how-pro/confidence.md)
+    * [Scope](/2-how-pro/cut-scope.md)
+    * [Done](/2-how-pro/done.md)
+    * [Estimate](/2-how-pro/estimate.md)
+    * [Steps](/2-how-pro/five-steps.md)
+    * [Maintainability](/2-how-pro/maintainability.md)
+    * [Meetings](/2-how-pro/meetings.md)
+    * [Quality](/2-how-pro/own-quality.md)
+    * [Priority](/2-how-pro/priority.md)
+    * [Requirements](/2-how-pro/question-requirements.md)
+    * [Breakdown](/2-how-pro/task-breakdown.md)
+- How-Value
+    * [Candor](/3-how-value/candor.md)
+    * [Values](/3-how-value/core-values.md)
+    * [Hunger](/3-how-value/hunger.md)
+    * [Initiative](/3-how-value/initiative.md)
+- Dont-Pro
+    * [Checklist](/4-dont-pro/checklist.md)
+    * [Estimate](/4-dont-pro/no-estimate.md)
+    * [Innovation](/4-dont-pro/weak-innovation.md)
+- Dont-Value
+    * [Ego](/5-dont-value/ego.md)
+    * [Harmony](/5-dont-value/false-harmony.md)
+    * [Lying](/5-dont-value/lying.md)
+    * [Victim](/5-dont-value/victim.md)
+- Books
+    * [Coder](/6-books/clean-coder.md)
+    * [Communication](/6-books/nonviolent-communication.md)
+    * [Habits](/6-books/seven-habits.md)
+- Program
+    * [Millions-Of-Data-Optimization](/program/mysql-millions-of-data-optimization.md)
+    * [Mysqldump](/program/mysqldump.md)
+- Throught
+    * [Chance](/throught/chance.md)
+    * [To-Learn-Cs](/throught/how-to-learn-cs.md)
+
