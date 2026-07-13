@@ -1,12 +1,12 @@
 * [首页](/README.md)
 
 * 什么是好的程序员?
-  * [工程师的“五个等级”，你处在哪一级？ ](/1-what/five-levels.md)
   * [专业能力 VS 价值观, 哪个更重要?](/1-what/skill-vs-values.md)
-  * [作为程序员，我们应该更关注代码质量还是只需要以完成功能就好了？](/1-what/quality-vs-speed.md)
-  * [以终为始](/1-what/value-first.md)
+  * [工程师的“五个等级”，你处在哪一级？ ](/1-what/five-levels.md)
+  * [作为程序员，我们应该更关注代码质量还是开发速度？](/1-what/quality-vs-speed.md)
 
 * 怎么成为一个好的程序员? 专业能力
+  * [以终为始](/1-what/value-first.md)
   * [五步工作法](/2-how-pro/five-steps.md)
   * [质疑需求](/2-how-pro/question-requirements.md)
   * [删除非核心功能](/2-how-pro/cut-scope.md)
@@ -21,6 +21,7 @@
   * [什么时候求助？](/2-how-pro/ask-when.md)
   * [如何正确提问？](/2-how-pro/ask-how.md)
   * [如何开会？](/2-how-pro/meetings.md)
+
 
 * 怎么成为一个好的程序员? 价值观
   * [坦诚、主动、渴望](/3-how-value/core-values.md)
