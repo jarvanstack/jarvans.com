@@ -2,3 +2,4 @@
 coscli.log
 .DS_Store
 node_modules
+docs/_sidebar.gen.md
