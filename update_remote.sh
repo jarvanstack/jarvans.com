@@ -6,7 +6,8 @@ remote_dir="/root/app/jarvans.com"
 branch="master"
 compose_file="docker-compose-nginx.yaml"
 container_name="jarvans_com_nginx"
-site_url="https://jarvans.com/"
+site_url="https://www.jarvans.com/"
+redirect_url="https://jarvans.com/"
 
 local_revision="$(git rev-parse HEAD)"
 
@@ -56,7 +57,8 @@ REMOTE_SCRIPT
 # A revision query parameter bypasses intermediary/browser caches during the
 # deployment check without changing the site's public URLs.
 headers_file="$(mktemp)"
-trap 'rm -f "$headers_file"' EXIT
+redirect_headers_file="$(mktemp)"
+trap 'rm -f "$headers_file" "$redirect_headers_file"' EXIT
 curl --fail --silent --show-error --max-time 15 \
   --dump-header "$headers_file" \
   --output /dev/null \
@@ -65,6 +67,20 @@ curl --fail --silent --show-error --max-time 15 \
 if ! grep -Eiq '^cache-control:[[:space:]]*no-cache([,[:space:]]|$)' "$headers_file"; then
   echo "Website cache policy was not applied after deployment." >&2
   sed -n '/^[Cc]ache-[Cc]ontrol:/p' "$headers_file" >&2
+  exit 1
+fi
+
+redirect_status="$(curl --silent --show-error --max-time 15 \
+  --dump-header "$redirect_headers_file" \
+  --output /dev/null \
+  --write-out '%{http_code}' \
+  "$redirect_url")"
+
+if [[ "$redirect_status" != "308" ]] \
+  || ! grep -Fiq "location: $site_url" "$redirect_headers_file" \
+  || ! grep -Eiq '^clear-site-data:[[:space:]]*"cache",[[:space:]]*"storage"' "$redirect_headers_file"; then
+  echo "Bare-domain canonical redirect was not applied after deployment." >&2
+  sed -n '1,/^[[:space:]]*$/p' "$redirect_headers_file" >&2
   exit 1
 fi
 
