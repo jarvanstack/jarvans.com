@@ -1,7 +1,7 @@
 * [首页](/README.md)
 
 * 什么是好的程序员?
-  * [专业能力 VS 价值观, 哪个更重要?](/1-what/skill-vs-values.md)
+  * [能力 VS 品质, 哪个更重要?](/1-what/skill-vs-values.md)
   * [工程师的“五个等级”，你处在哪一级？ ](/1-what/five-levels.md)
   * [作为程序员，我们应该更关注代码质量还是开发速度？](/1-what/quality-vs-speed.md)
 
