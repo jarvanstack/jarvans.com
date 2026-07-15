@@ -8,6 +8,7 @@
 * 怎么成为一个好的程序员? 专业能力
   * [以终为始](/1-what/value-first.md)
   * [五步工作法](/2-how-pro/five-steps.md)
+  * [马斯克五步工作法 V2](/2-how-pro/five-steps-v2.md)
   * [质疑需求](/2-how-pro/question-requirements.md)
   * [删除非核心功能](/2-how-pro/cut-scope.md)
   * [多个方案，选择最优](/2-how-pro/compare-options.md)
