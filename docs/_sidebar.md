@@ -17,7 +17,7 @@
   * [任务分解](/2-how-pro/task-breakdown.md)
   * [别把 QA 当啄木鸟](/2-how-pro/own-quality.md)
   * [代码信心从哪里来？](/2-how-pro/confidence.md)
-  * [什么才算完成？](/2-how-pro/done.md)
+  * [代码写完了，为什么产品经理说还没做完？](/2-how-pro/done.md)
   * [决定优先级](/2-how-pro/priority.md)
   * [什么时候求助？](/2-how-pro/ask-when.md)
   * [如何正确提问？](/2-how-pro/ask-how.md)
