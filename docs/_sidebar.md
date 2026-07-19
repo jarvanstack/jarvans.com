@@ -1,16 +1,14 @@
 * [首页](/README.md)
 
 * 什么是好的程序员?
-  * [能力 VS 品质, 哪个更重要?](/1-what/skill-vs-values.md)
   * [工程师的“五个等级”，你处在哪一级？ ](/1-what/five-levels.md)
+  * [能力 VS 品质, 哪个更重要?](/1-what/skill-vs-values.md)
   * [作为程序员，我们应该更关注代码质量还是开发速度？](/1-what/quality-vs-speed.md)
 
 * 怎么成为一个好的程序员? 专业能力
   * [马斯克五步工作法](/2-how-pro/five-steps-v3.md)
-  * [质疑需求](/2-how-pro/question-requirements.md)
-  * [删除非核心功能](/2-how-pro/cut-scope.md)
-  * [多个方案，选择最优](/2-how-pro/compare-options.md)
-  * [封底估算](/2-how-pro/estimate.md)
+  * [先拿出第二个方案，再做决定](/2-how-pro/compare-options.md)
+  * [封底估算能解决所有的高性能问题](/2-how-pro/estimate-v3.md)
   * [可维护性](/2-how-pro/maintainability.md)
   * [任务分解](/2-how-pro/task-breakdown.md)
   * [别把 QA 当啄木鸟](/2-how-pro/own-quality.md)
