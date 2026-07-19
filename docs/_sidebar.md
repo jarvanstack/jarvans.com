@@ -7,6 +7,7 @@
 
 * 怎么成为一个好的程序员? 专业能力
   * [马斯克五步工作法](/2-how-pro/five-steps-v3.md)
+  * [别做 40 分的垃圾创新](/2-how-pro/weak-create.md)
   * [先拿出第二个方案，再做决定](/2-how-pro/compare-options.md)
   * [封底估算能解决所有的高性能问题](/2-how-pro/estimate-v3.md)
   * [可维护性](/2-how-pro/maintainability.md)
