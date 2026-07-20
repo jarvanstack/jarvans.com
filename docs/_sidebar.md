@@ -8,17 +8,9 @@
 * 怎么成为一个好的程序员? 专业能力
   * [马斯克五步工作法](/2-how-pro/five-steps-v3.md)
   * [别做 40 分的垃圾创新](/2-how-pro/weak-create.md)
-  * [先拿出第二个方案，再做决定](/2-how-pro/compare-options.md)
   * [封底估算能解决所有的高性能问题](/2-how-pro/estimate-v3.md)
-  * [可维护性](/2-how-pro/maintainability.md)
-  * [任务分解](/2-how-pro/task-breakdown.md)
-  * [别把 QA 当啄木鸟](/2-how-pro/own-quality.md)
-  * [代码信心从哪里来？](/2-how-pro/confidence.md)
-  * [代码写完了，为什么产品经理说还没做完？](/2-how-pro/done.md)
-  * [决定优先级](/2-how-pro/priority.md)
-  * [什么时候求助？](/2-how-pro/ask-when.md)
-  * [如何正确提问？](/2-how-pro/ask-how.md)
-  * [如何开会？](/2-how-pro/meetings.md)
+  * [应该确保 QA 找不出任何 bug](/2-how-pro/no-bug.md)
+  * [代码质量由谁负责?](/2-how-pro/quality-by-dev.md)
 
 
 * 怎么成为一个好的程序员? 价值观
