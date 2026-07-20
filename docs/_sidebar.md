@@ -11,13 +11,16 @@
   * [封底估算能解决所有的高性能问题](/2-how-pro/estimate-v3.md)
   * [应该确保 QA 找不出任何 bug](/2-how-pro/no-bug.md)
   * [代码质量由谁负责?](/2-how-pro/quality-by-dev.md)
+  * [越早发现的 bug，代码代价越小](/2-how-pro/early-bug.md)
 
 
 * 怎么成为一个好的程序员? 价值观
-  * [坦诚、主动、渴望](/3-how-value/core-values.md)
   * [坦诚](/3-how-value/candor.md)
-  * [主动](/3-how-value/initiative.md)
-  * [渴望](/3-how-value/hunger.md)
+  * [Ego 别太大](/3-how-value/ego.md)
+  * [怎么决定优先级？](/3-how-value/priority.md)
+  * [别受害者心态](/3-how-value/no-victim.md)
+  * [别装一团和气](/3-how-value/false-harmony.md)
+  * [什么时候提问, 寻求帮助?](/3-how-value/ask-for-help.md)
 
 * 不为清单 - 专业能力
   * [不估算，不交白卷](/4-dont-pro/no-estimate.md)
