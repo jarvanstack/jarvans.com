@@ -8,6 +8,8 @@ compose_file="docker-compose-nginx.yaml"
 container_name="jarvans_com_nginx"
 site_url="https://www.jarvans.com/"
 redirect_url="https://jarvans.com/"
+vendor_url="${site_url}vendor/docsify-4.13.1.min.js"
+markdown_url="${site_url}README.md"
 
 local_revision="$(git rev-parse HEAD)"
 
@@ -49,7 +51,9 @@ if [[ "$actual_revision" != "$expected_revision" ]]; then
   exit 1
 fi
 
-docker compose -f "$compose_file" up -d
+# Git replaces changed files atomically. Recreate the container so its
+# single-file Nginx config bind mount follows the new inode.
+docker compose -f "$compose_file" up -d --force-recreate
 docker exec "$container_name" nginx -t
 docker exec "$container_name" nginx -s reload
 REMOTE_SCRIPT
@@ -58,15 +62,45 @@ REMOTE_SCRIPT
 # deployment check without changing the site's public URLs.
 headers_file="$(mktemp)"
 redirect_headers_file="$(mktemp)"
-trap 'rm -f "$headers_file" "$redirect_headers_file"' EXIT
+vendor_headers_file="$(mktemp)"
+markdown_headers_file="$(mktemp)"
+trap 'rm -f "$headers_file" "$redirect_headers_file" "$vendor_headers_file" "$markdown_headers_file"' EXIT
 curl --fail --silent --show-error --max-time 15 \
+  --compressed \
   --dump-header "$headers_file" \
   --output /dev/null \
   "${site_url}?deployment=${local_revision}"
 
-if ! grep -Eiq '^cache-control:[[:space:]]*no-cache([,[:space:]]|$)' "$headers_file"; then
+if ! grep -Eiq '^cache-control:[[:space:]]*no-cache([,[:space:]]|$)' "$headers_file" \
+  || ! grep -Eiq '^content-encoding:[[:space:]]*gzip' "$headers_file"; then
   echo "Website cache policy was not applied after deployment." >&2
-  sed -n '/^[Cc]ache-[Cc]ontrol:/p' "$headers_file" >&2
+  sed -n '/^[Cc]ache-[Cc]ontrol:/p; /^[Cc]ontent-[Ee]ncoding:/p' "$headers_file" >&2
+  exit 1
+fi
+
+curl --fail --silent --show-error --max-time 15 \
+  --compressed \
+  --dump-header "$vendor_headers_file" \
+  --output /dev/null \
+  "$vendor_url"
+
+if ! grep -Eiq '^cache-control:[[:space:]]*public,[[:space:]]*max-age=31536000,[[:space:]]*immutable' "$vendor_headers_file" \
+  || ! grep -Eiq '^content-encoding:[[:space:]]*gzip' "$vendor_headers_file"; then
+  echo "Vendor asset cache or compression policy was not applied after deployment." >&2
+  sed -n '/^[Cc]ache-[Cc]ontrol:/p; /^[Cc]ontent-[Ee]ncoding:/p' "$vendor_headers_file" >&2
+  exit 1
+fi
+
+curl --fail --silent --show-error --max-time 15 \
+  --compressed \
+  --dump-header "$markdown_headers_file" \
+  --output /dev/null \
+  "$markdown_url"
+
+if ! grep -Eiq '^content-type:[[:space:]]*text/markdown' "$markdown_headers_file" \
+  || ! grep -Eiq '^content-encoding:[[:space:]]*gzip' "$markdown_headers_file"; then
+  echo "Markdown content type or compression policy was not applied after deployment." >&2
+  sed -n '/^[Cc]ontent-[Tt]ype:/p; /^[Cc]ontent-[Ee]ncoding:/p' "$markdown_headers_file" >&2
   exit 1
 fi
 
