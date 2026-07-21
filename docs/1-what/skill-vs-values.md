@@ -1,6 +1,6 @@
 # 能力 VS 品质, 哪个更重要?
 
-![](https://cdn.jarvans.com/blog/202320260712164221244.png)
+![](https://cdn.jarvans.com/blog/202320260721101858833.png)
 
 
 
