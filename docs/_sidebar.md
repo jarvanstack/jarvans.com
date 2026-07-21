@@ -18,6 +18,8 @@
 * 品质
   * [坦诚](/3-how-value/candor.md)
   * [别装一团和气](/3-how-value/false-harmony.md)
+
+* 草稿
   * [别受害者心态](/3-how-value/no-victim.md)
   * [Ego 别太大](/3-how-value/ego.md)
 
