@@ -3,10 +3,10 @@
 * 什么是好的程序员?
   * [工程师的“五个等级”，你处在哪一级？ ](/1-what/five-levels.md)
   * [能力 VS 品质, 哪个更重要?](/1-what/skill-vs-values.md)
+  * [代码质量 VS 开发速度？](/1-what/quality-vs-speed.md)
 
 *  专业能力
   * [马斯克五步工作法](/2-how-pro/five-steps-v3.md)
-  * [作为程序员，我们应该更关注代码质量还是开发速度？](/2-how-pro/quality-vs-speed.md)
   * [别做 40 分的垃圾创新](/2-how-pro/weak-create.md)
   * [封底估算能解决所有的高性能问题](/2-how-pro/estimate-v3.md)
   * [应该确保 QA 找不出任何 bug](/2-how-pro/no-bug.md)
